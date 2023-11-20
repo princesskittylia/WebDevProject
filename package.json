@@ -3,9 +3,16 @@
   "version": "1.0.0",
   "description": "Resume building and job finder app",
   "main": "app.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Aaliyah Demitro, Alden Park, Alex Moore, JiaHui Lian, Zachary Duva",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "typo-js": "^1.2.3"
+  }
 }
